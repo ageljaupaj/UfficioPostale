@@ -1,0 +1,27 @@
+# File binari (eseguibili compilati)
+direttore
+ticket
+operatore
+utente
+add_users
+
+# File oggetti compilati
+*.o
+
+# File CSV di output
+*.csv
+
+# File di log eventuali
+*.log
+
+# File di backup editor
+*~
+# Swap files (vim, nano, ecc)
+*.swp
+
+# Cache editor
+.vscode/
+.idea/
+
+# Config temporanee (opzionale)
+*.tmp
