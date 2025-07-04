@@ -1,27 +1,36 @@
-# File binari (eseguibili compilati)
+# ==========================================
+# BINARI DEL PROGRAMMA
+# (compilati da gcc, make o simili)
 direttore
 ticket
 operatore
 utente
 add_users
-
-# File oggetti compilati
+*.txt
+# File oggetto C/C++
 *.o
 
-# File CSV di output
+# ==========================================
+# FILE DI OUTPUT
+# CSV generati, log, report, debug
 *.csv
-
-# File di log eventuali
 *.log
 
-# File di backup editor
+# File temporanei e di backup
+*.tmp
 *~
-# Swap files (vim, nano, ecc)
+
+# Swap files di editor (vim, nano, etc)
 *.swp
 
-# Cache editor
+# ==========================================
+# FILE DI CONFIG DEGLI IDE
 .vscode/
 .idea/
 
-# Config temporanee (opzionale)
-*.tmp
+# File di progetti Eclipse / JetBrains
+*.iml
+.classpath
+.project
+.settings/
+
